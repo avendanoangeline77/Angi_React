@@ -1,7 +1,8 @@
 import {MiPrimerComponente} from './component/miPrimerComponente/MiPrimerComponente'
 
+import {Estado} from './component/estado/Estado'
 const Myfunction = () => {
- return <>hola</>;
+ return <>hola,</>;
 
 }
 
@@ -12,7 +13,8 @@ function App() {
   return (
    <> 
     <Myfunction/>
-    <MiPrimerComponente name={'primero'} lastName={'segund'} />
+    <MiPrimerComponente name={'angeline'} lastName={'avendaño'} />
+    <Estado />
    </>
   );
 }
