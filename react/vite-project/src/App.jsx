@@ -1,6 +1,11 @@
 import {MiPrimerComponente} from './component/miPrimerComponente/MiPrimerComponente'
 
 import {Estado} from './component/estado/Estado'
+
+import {GetPost} from './component/getPost/GetPost'
+
+import {Personajes} from './component/personajes/Personajes'
+
 const Myfunction = () => {
  return <>hola,</>;
 
@@ -15,6 +20,8 @@ function App() {
     <Myfunction/>
     <MiPrimerComponente name={'angeline'} lastName={'avendaño'} />
     <Estado />
+    <GetPost/>
+    <Personajes/>
    </>
   );
 }
