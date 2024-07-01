@@ -6,6 +6,8 @@ import {GetPost} from './component/getPost/GetPost'
 
 import {Personajes} from './component/personajes/Personajes'
 
+import {ConvertidorMonedas} from './component/convertirMonedas/ConvertidorDMonedas' 
+
 const Myfunction = () => {
  return <>hola,</>;
 
@@ -21,9 +23,10 @@ function App() {
     <MiPrimerComponente name={'angeline'} lastName={'avendaño'} />
     <Estado />
     <GetPost/>
-    <Personajes/>
+    <ConvertidorMonedas/>
    </>
   );
 }
+
 
 export default App
