@@ -4,9 +4,11 @@ import {Estado} from './component/estado/Estado'
 
 import {GetPost} from './component/getPost/GetPost'
 
-import {Personajes} from './component/personajes/Personajes'
+/*import {Personajes} from './component/personajes/Personajes'*/
 
 import {ConvertidorMonedas} from './component/convertirMonedas/ConvertidorDMonedas' 
+
+import {EpisodiosPersonajes} from './component/episodiosPersonajes/EpisodiosPersonajes'
 
 const Myfunction = () => {
  return <>hola,</>;
@@ -24,6 +26,8 @@ function App() {
     <Estado />
     <GetPost/>
     <ConvertidorMonedas/>
+    <EpisodiosPersonajes/>
+
    </>
   );
 }

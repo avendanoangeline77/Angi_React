@@ -1,6 +1,6 @@
 export function  MiPrimerComponente({name, lastName, }) {
      return (<> 
-         mi nombre es {name} {lastName}
+         hola 
 
   <img src="./imgs/temporada-4.jpeg" alt=""/> </>)
 }

@@ -55,3 +55,24 @@
   justify-content: center;
   align-items: center;
 }
+
+.grilla_3x3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 70px;
+}
+.cartasPersonajes{
+background-color:rgb(39, 69, 83);
+text-align:center;
+color:rgb(0, 0, 0);
+border-radius: 30px;
+}
+
+.cartaEpiPersonajes{
+  background-color:rgb(97, 107, 101);
+  text-align:center;
+  color:rgb(0, 0, 0);
+  border-radius: 30px;
+
+}
